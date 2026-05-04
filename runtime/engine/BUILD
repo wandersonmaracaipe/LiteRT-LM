@@ -47,7 +47,6 @@ cc_library(
     deps = [
         ":engine_interface",
         ":engine_settings",
-        "@com_google_absl//absl/container:flat_hash_map",
         "@com_google_absl//absl/functional:any_invocable",
         "@com_google_absl//absl/log:absl_log",
         "@com_google_absl//absl/status",
